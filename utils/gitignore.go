@@ -21,6 +21,7 @@ import (
 	"path/filepath"
 	"runtime"
 
+	"github.com/shilangyu/driveignore/utils"
 	gitignore "github.com/monochromegane/go-gitignore"
 )
 
@@ -42,7 +43,7 @@ const (
 func DriveIgnore(localPath string, mergeIgnores bool) (driveignore gitignore.IgnoreMatcher, ignorer IgnoreType) {
 	localDI := filepath.Join(localPath, ".driveignore")
 	_, currFile, _, _ := runtime.Caller(0)
-	globalDI := filepath.Join(currFile, "../../.global_driveignore")
+	globalDI := utils.GlobalDriveignorePath()
 
 	_, err1 := os.Stat(localDI)
 	_, err2 := os.Stat(globalDI)
