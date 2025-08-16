@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/shilangyu/driveignore/utils"
+	"github.com/kazec/driveignore/utils"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 )

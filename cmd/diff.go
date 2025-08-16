@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 
 	"github.com/fatih/color"
-	"github.com/shilangyu/driveignore/utils"
+	"github.com/kazec/driveignore/utils"
 	"github.com/spf13/cobra"
 )
 

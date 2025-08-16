@@ -1,19 +1,19 @@
 # driveignore
 
-[![](https://github.com/shilangyu/driveignore/workflows/ci/badge.svg)](https://github.com/shilangyu/driveignore/actions)
+[![](https://github.com/kazec/driveignore/workflows/ci/badge.svg)](https://github.com/kazec/driveignore/actions)
 
 This simple cli tools works **together with** the [google drive sync](https://www.google.com/drive/download/) allowing you to have .driveignore files. Driveignore uses hardlinks, meaning no files duplicates, no repetitive cli calls, and blazing fast 'upload' speeds.
 
 ## installing
 
-- grab an executable from the [release tab](https://github.com/shilangyu/driveignore/releases)
+- grab an executable from the [release tab](https://github.com/kazec/driveignore/releases)
 - add it to `PATH`
 - install [google drive sync](https://www.google.com/drive/download/)
 
 or
 
 - install [golang](https://golang.org/dl/)
-- run the `go install github.com/shilangyu/driveignore@latest` command
+- run the `go install github.com/kazec/driveignore@latest` command
 - install [google drive sync](https://www.google.com/drive/download/)
 
 Done! You will now have `driveignore` as a command in your terminal.

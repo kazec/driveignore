@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/shilangyu/driveignore/utils"
+	"github.com/kazec/driveignore/utils"
 	gitignore "github.com/monochromegane/go-gitignore"
 )
 

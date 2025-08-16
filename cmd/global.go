@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/shilangyu/driveignore/utils"
+	"github.com/kazec/driveignore/utils"
 )
 
 // globalCmd represents the global command

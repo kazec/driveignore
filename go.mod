@@ -1,4 +1,4 @@
-module github.com/shilangyu/driveignore
+module github.com/kazec/driveignore
 
 go 1.13
 
